@@ -40,4 +40,4 @@ class Player(CircleShape):
         self.position += rotated_vector_with_speed
 
     def draw(self, screen):
-        pygame.draw.polygon(screen, "red", self.triangle(), LINE_WIDTH)
+        pygame.draw.polygon(screen, "blue", self.triangle(), LINE_WIDTH)
